@@ -1,27 +1,29 @@
 # PackageResourceViewer
 Plugin to assist viewing and editing package resources in Sublime Text 2 and Sublime Text 3.
 
+
 ## Installation
 Note with either method, you may need to restart Sublime Text for the plugin to load properly.
 
-### Package Control
-Installation through [package control](http://wbond.net/sublime_packages/package_control) is recommended. It will handle updating your packages as they become available. To install, do the following.
+### By Package Control
 
-* In the Command Palette, enter `Package Control: Install Package`
-* Search for `PackageResourceViewer`
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `PackageResourceViewer` and press <kbd>Enter</kbd>
 
-### Manual
-Clone or copy this repository into the packages directory. Ensure it is placed in a folder named `PackageResourceViewer`. By default, the Packages directories for Sublime Text 2 are located at:
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
-* OS X: ~/Library/Application Support/Sublime Text 2/Packages/
-* Windows: %APPDATA%/Roaming/Sublime Text 2/Packages/
-* Linux: ~/.config/sublime-text-2/Packages/
-
-By default, the Packages directories for Sublime Text 3 are located at:
-
-* OS X: ~/Library/Application Support/Sublime Text 3/Packages/
-* Windows: %APPDATA%/Roaming/Sublime Text 3/Packages/
-* Linux: ~/.config/sublime-text-3/Packages/
 
 ## Usage
 
